@@ -14,7 +14,7 @@ namespace Inserat_Function_GoogleCloud
         public IMongoDatabase CreateConnToDb(string dbname)
         {
             string connectionString =
-            @"mongodb://wfp1:3LjM2F2o7qoqTsdh9w9LADKU3TJRjmGxKgc7rfSmQwMxiTRoMwRNmeqBVT3kQAYOJ3smUqtnB9QrACDb4UyZsw==@wfp1.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@wfp1@";
+            @"mongodb://CONSTRING@";
             MongoClientSettings settings = MongoClientSettings.FromUrl(
               new MongoUrl(connectionString)
             );
