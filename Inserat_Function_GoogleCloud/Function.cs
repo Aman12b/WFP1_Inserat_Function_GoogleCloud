@@ -24,8 +24,8 @@ namespace WFP1GoogleFunction
     public class Function : IHttpFunction
     {
         private const string dbname = "Inserat";
-        private const string clientId = "963313514037-88se2dtsfgiomnnublkdt879mr54ul9n.apps.googleusercontent.com";
-        private const string clientSecret = "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";
+        private const string clientId = "CID";
+        private const string clientSecret = "CSECRET";
 
         public async Task HandleAsync(HttpContext context)
         {
